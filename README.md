@@ -9,12 +9,12 @@ Kelas: 2D
 ## TUGAS PRAKTIKUM
 ### TUGAS WAJIB
 1. Jalankan aplikasi dan buktikan bahwa data yang tampil sesuai dengan yang ada di Firebase Console.
-- [](images/menus-page.png)
+![](images/menus-page.png)
 Dari gambar tersebut terbukti bahwa data yang tampil pada aplikasi sesuai dengan data yang ada di Firestore Database (Firebase Console).
 2. Lakukan pemesanan, dan tunjukkan kepada Dosen/Asisten bahwa data pesanan masuk ke koleksi orders di Console.
-- [](images/pesan.png)
-- [](images/pesanan-berhasil.png)
-- [](images/bukti-pesanan.png)
+![](images/pesan.png)
+![](images/pesanan-berhasil.png)
+![](images/bukti-pesanan.png)
 Dari beberapa gambar tersebut terbukti bahwa aplikasi dapat melakukan pemesanan dan data pemesanan itu masuk ke koleksi orders di Firestore Database Firebase Console, yang mana data orders tersebut berisi informasi seperti customer_name (nama pemesan), menu_item (menu yang dipesan), price (harga), status (menunggu), dan timestamp (waktu pemesanan).
 ### TANTANGAN (Point Plus)
 1. Tambahkan field category (misal: ’Makanan’, ’Minuman’) pada data di Firebase.
